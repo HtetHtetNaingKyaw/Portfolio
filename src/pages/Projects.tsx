@@ -18,7 +18,7 @@ const Projects = () => {
     <>
       <nav className="navbar justify-center gap-2 bg-base-300 sticky top-0 z-10">
         <img
-          src="https://cdn-icons-png.flaticon.com/128/17051/17051680.png"
+          src="https://cdn-icons-png.flaticon.com/128/2945/2945408.png"
           alt="logo"
           className="w-10"
           onClick={() => {
@@ -31,7 +31,7 @@ const Projects = () => {
             navigate("/");
           }}
         >
-          Zaw Win Khant
+          Htet Htet Naing Kyaw
         </div>
       </nav>
 

@@ -7,7 +7,7 @@ export const useGetPosts = () => {
     queryFn: fetchPosts,
     initialPageParam: 0,
     getNextPageParam: (lastPage, pages) => {
-      if (lastPage.documents.length < 2) {
+      if (lastPage.documents.length < 20) {
         return undefined;
       }
 

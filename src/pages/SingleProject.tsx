@@ -21,7 +21,7 @@ const SingleProject = () => {
     <>
       <nav className="navbar justify-center gap-2 bg-base-300 sticky top-0 z-10">
         <img
-          src="https://cdn-icons-png.flaticon.com/128/17051/17051680.png"
+          src="https://cdn-icons-png.flaticon.com/128/2945/2945408.png"
           alt="logo"
           className="w-10"
           onClick={() => {
@@ -34,7 +34,7 @@ const SingleProject = () => {
             navigate("/");
           }}
         >
-          Zaw Win Khant
+          Htet Htet Naing Kyaw
         </div>
       </nav>
       <div className="h-full mx-auto container bg-base-200 p-3 overflow-y-scroll custom-scroll ">
@@ -45,7 +45,7 @@ const SingleProject = () => {
             alt="img"
           />
           <div className="text-3xl">{data?.title}</div>
-          <div className="text-xl">Author Zaw WIn Khant &#128526;</div>
+          <div className="text-xl">Author Htet Htet Naing Kyaw</div>
           <div className="">Publish at {data?.$updatedAt}</div>
           <p className="text-justify whitespace-pre-wrap text-lg">
             {data?.description}

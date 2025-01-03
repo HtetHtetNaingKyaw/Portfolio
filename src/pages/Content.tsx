@@ -10,15 +10,15 @@ const Content = () => {
           alt="profile"
           className="w-96 h-50 object-contain object-right bg-base-200 rounded-2xl border border-double border-primary p-1"
         />
-        <div className="text-lg font-semibold">Hello, I'm Zaw Win Khant</div>
+        <div className="text-lg font-semibold">Hello, I'm Htet Htet Naing Kyaw</div>
         <div className="flex flex-wrap justify-center gap-3">
-          <a href="tel:+959980786035" className="btn btn-link">
-            Call Me - 09980786035
+          <a href="tel:+059650323629" className="btn btn-link">
+            Call Me - 09650323629
           </a>
-          <a href="tel:+959795246671" className="btn btn-link link-secondary">
-            Call Me - 09795246671
+          <a href="tel:+059650323629" className="btn btn-link link-secondary">
+            Call Me - 09958950566
           </a>
-          <a href="mailto:zawwinkhant94.com" className="btn btn-link link-info">
+          <a href="mailto:htethtetnaingkyaw8123@gmail.com" className="btn btn-link link-info">
             Send Me an Email
           </a>
         </div>
