@@ -6,7 +6,7 @@ export const fetchPosts = async ({ pageParam}: { pageParam: number }) => {
     const response = await db.listDocuments(
       import.meta.env.VITE_APPWRITE_DB_ID, // Database ID
       import.meta.env.VITE_APPWRITE_POST_COLLECTON_ID, // Collection ID
-      [Query.limit(20), Query.offset(pageParam * 20)]
+      [Query.limit(20), Query.offset(pageParam * 20),Query.orderDesc("date")]
     );
     return response;
   } catch (error) {
